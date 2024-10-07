@@ -1,4 +1,4 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs) [![apsystems](https://img.shields.io/github/v/release/skelgaard/homeassistant-apsystems.svg)](https://github.com/skelgaard/homeassistant-apsystems) ![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs) [![apsystems](https://img.shields.io/github/v/release/Hann3s-GER/homeassistant-apsystems_ema.svg)](https://github.com/Hann3s-GER/homeassistant-apsystems_ema) ![Maintenance](https://img.shields.io/maintenance/no/2024.svg)
 
 # APsystems Sensor for Home Assistant
 This component simplifies the integration of a APsystems inverter:
@@ -16,7 +16,7 @@ It is only called from sunset to sunrise and the sensor going offline at night
 
 ### Installation
 Use [HACS](https://custom-components.github.io/hacs/) to point to this github URL:
-https://github.com/skelgaard/homeassistant-apsystems
+https://github.com/Hann3s-GER/homeassistant-apsystems_ema
 
 ### Configuration
 Use your apsystemsema.com to configure the configuration.yaml.

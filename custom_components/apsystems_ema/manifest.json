@@ -3,7 +3,7 @@
   "name": "APsystems_ema",
   "documentation": "https://github.com/Hann3s-GER/homeassistant-apsystems_ema/blob/master/README.md",
   "dependencies": [],
-  "codeowners": ["@skelgaard"],
+  "codeowners": ["@Hann3s-GER"],
   "requirements": ["mechanize==0.4.5"],
   "version": "1.0.20"
 }
