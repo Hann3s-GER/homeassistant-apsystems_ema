@@ -50,7 +50,7 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
         vol.Required(CONF_AUTH_ID): cv.string,
         vol.Required(CONF_SYSTEM_ID): cv.string,
         vol.Required(CONF_ECU_ID): cv.string,
-        vol.Optional(CONF_NAME, default="APsystems"): cv.string,
+        vol.Optional(CONF_NAME, default="APsystems_ema"): cv.string,
         vol.Optional(CONF_SUNSET, default="off"): cv.string,
     }
 )
@@ -94,7 +94,7 @@ SENSORS = {
 SCAN_INTERVAL = timedelta(minutes=1)
 _LOGGER = logging.getLogger(__name__)
 
-DOMAIN = "apsystems"
+DOMAIN = "apsystems_ema"
 
 offset_hours = (8 * 60 * 60 * 1000) - (time.localtime().tm_gmtoff * 1000)
 _LOGGER.debug("Offset set to : "+ str(offset_hours/(60*60*1000)) + " hours")

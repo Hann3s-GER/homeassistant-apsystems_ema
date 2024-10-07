@@ -24,7 +24,7 @@ Use your apsystemsema.com to configure the configuration.yaml.
 ```yaml
 # Minimal configuration.yaml entry:
 sensor:
-  - platform: apsystems
+  - platform: apsystems_ema
     authId: apsystemsem_authid
     systemId: apsystemsema_system_id
     ecuId: apsystemsema_ecu_id
