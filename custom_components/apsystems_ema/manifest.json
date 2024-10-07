@@ -1,7 +1,7 @@
 {
   "domain": "apsystems_ema",
   "name": "APsystems_ema",
-  "documentation": "https://github.com/skelgaard/homeassistant-apsystems/blob/master/README.md",
+  "documentation": "https://github.com/Hann3s-GER/homeassistant-apsystems_ema/blob/master/README.md",
   "dependencies": [],
   "codeowners": ["@skelgaard"],
   "requirements": ["mechanize==0.4.5"],
